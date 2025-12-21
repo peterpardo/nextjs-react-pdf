@@ -9,7 +9,7 @@
 
   // ESLint runs on save
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "always"
   },
 
   // Use project TypeScript version
