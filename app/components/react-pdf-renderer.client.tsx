@@ -21,6 +21,7 @@ export default function ReactPdfRenderer() {
           </Text>
           <Text style={styles.title}>Don Quijote de la Mancha</Text>
           <Text style={styles.author}>Miguel de Cervantes</Text>
+          {/* eslint-disable-next-line jsx-a11y/alt-text */}
           <Image style={styles.image} src={NatureBgImage.src} />
           <Text style={styles.subtitle}>
             Capítulo I: Que trata de la condición y ejercicio del famoso hidalgo
@@ -103,7 +104,8 @@ export default function ReactPdfRenderer() {
             Capítulo II: Que trata de la primera salida que de su tierra hizo el
             ingenioso Don Quijote
           </Text>
-          {/* <Image style={styles.image} src="/images/quijote2.png" /> */}
+          {/* eslint-disable-next-line jsx-a11y/alt-text */}
+          <Image style={styles.image} src={NatureBgImage.src} />
           <Text style={styles.text}>
             Hechas, pues, estas prevenciones, no quiso aguardar más tiempo a
             poner en efeto su pensamiento, apretándole a ello la falta que él
