@@ -9,9 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^4.3.1",
+    "@wojtekmaj/react-hooks": "^2.0.4",
     "next": "16.1.0",
+    "pdfjs-dist": "^4.8.69",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-pdf": "^9.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
