@@ -165,7 +165,6 @@ This monorepo uses **pnpm workspaces** to manage dependencies efficiently.
 ```yaml
 packages:
   - apps/*
-  - services/*
   - packages/*
 ```
 
