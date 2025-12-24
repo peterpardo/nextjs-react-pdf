@@ -27,6 +27,15 @@ This project is intentionally experimental. It exists to answer the following qu
 
 ---
 
+## How to run the project
+
+1. Run `pnpm install` in the root folder
+2. To run the apps: 
+    - Run `pnpm dev:web` to run the Nextjs app
+    - Run `pnpm dev:api` to run the express server
+
+--- 
+
 ## Libraries Being Tested
 
 ### 1. `react-pdf`
