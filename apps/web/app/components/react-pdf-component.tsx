@@ -5,10 +5,10 @@ import { useResizeObserver } from "@wojtekmaj/react-hooks";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
-
-import "./Sample.css";
-
 import type { PDFDocumentProxy } from "pdfjs-dist";
+
+import "./react-pdf-component.css";
+
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.mjs",
@@ -27,9 +27,9 @@ const maxWidth = 800;
 
 type PDFFile = string | File | null;
 
-export default function Sample() {
+export default function ReactPDFComponent() {
   const fileId = useId();
-  const [file, setFile] = useState<PDFFile>("./sample.pdf");
+  const [file, setFile] = useState<PDFFile>("/sample.pdf");
   const [numPages, setNumPages] = useState<number>();
   const [containerRef, setContainerRef] = useState<HTMLElement | null>(null);
   const [containerWidth, setContainerWidth] = useState<number>();
