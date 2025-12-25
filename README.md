@@ -38,7 +38,7 @@ This project is intentionally experimental. It exists to answer the following qu
 
 ## Libraries Being Tested
 
-### 1. `react-pdf`
+### 1. `react-pdf` 
 
 **Purpose**
 - View existing PDF files inside React applications
@@ -90,7 +90,7 @@ This project is intentionally experimental. It exists to answer the following qu
 
 ---
 
-### 4. `resend`
+### 4. `resend` (Not yet implemented)
 
 **Purpose**
 - Email delivery service used for sending PDFs
